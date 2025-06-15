@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Han Yin | Personal Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-left: 80px; /* 左边距 */
+            margin-right: 80px; /* 右边距 */
+            background-color: #F8F8F0;
+        }
+        header {
+            color: #fff;
+            padding: 2em 0;
+            background-image: url('pics/daydream.png');
+            background-size: cover;
+            background-position: center;
+            height: 100px;
+        }
+        main {
+            padding: 20px;
+            text-align: left; /* 让文字和图片都左对齐 */
+        }
+        .container {
+            display: flex; /* 使用 flexbox 布局 */
+            align-items: center; /* 垂直居中对齐 */
+            margin-bottom: 20px; /* 下方间距 */
+        }
+        img {
+            width: 400px; /* 设置图片宽度 */
+            height: auto; /* 保持高度比例 */
+            margin-right: 20px; /* 图片右侧间距 */
+            border: 5px solid black; /* 添加黑色边框 */
+            border-radius: 10px; /* 圆角边框 */
+        }
+        .img_school {
+            width: 80px; /* 设置图片宽度 */
+            height: auto; /* 保持高度比例 */
+            margin-right: 10px; /* 图片右侧间距 */
+            border: none; /* 移除边框 */
+        }
+        .icon {
+            width: 20px; /* 设置图标宽度 */
+            height: 20px; /* 设置图标高度 */
+            margin-right: 3px; /* 图标和文字之间的间距 */
+            margin-left: 3px; /* 图标和文字之间的间距 */
+            border: none; /* 移除边框 */
+        }
+        .text {
+            font-size: 1.2em; /* 设置文字大小 */
+            color: #333; /* 设置文字颜色 */
+        }
+        .highlight {
+            font-size: 1em; /* 调整高亮文字的字体大小 */
+            color: solid black; /* 调整高亮文字的颜色 */
+            font-weight: bold; /* 调整高亮文字的粗细 */
+        }
+        .highlight_3 {
+            font-family: Times New Roman, sans-serif;
+            font-size: 1em; /* 调整高亮文字的字体大小 */
+            color: #000;
+            font-weight: bold; /* 调整高亮文字的粗细 */
+            margin-top: 5px;    /* 上边距 */
+            margin-bottom: 5px; /* 下边距 */
+        }
+        .highlight_4 {
+            font-family: Times New Roman, sans-serif;
+            font-size: 1em; /* 调整高亮文字的字体大小 */
+            color: #000;
+            margin-top: 5px;    /* 上边距 */
+            margin-bottom: 5px; /* 下边距 */
+        }
+        .fancy-text {
+            font-family: Georgia, serif; /* 设置花体字 */
+            color: #000;
+            font-size: 1.8em; /* 设置文字大小 */
+            margin-top: 10px; /* 上边距 */
+            margin-bottom: 10px; /* 下边距 */
+            border-bottom: 0.5px solid gray; /* 灰色横线，设置线条粗细 */
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 3px;
+/*             position: fixed;
+            width: 100%; */
+            bottom: 0;
+        }
+        /* 调整列表字体和行间距 */
+        ul {
+            list-style-type: disc; /* 圆点样式 */
+            padding-left: 20px;    /* 左侧缩进 */
+            font-family: Times New Roman, sans-serif; /* 修改字体 */
+            font-size: 1.2em;       /* 字体大小 */
+        }
+
+        /* 单独调整每行的上下边距 */
+        li {
+            margin-top: 10px;      /* 上边距 */
+            margin-bottom: 10px;   /* 下边距 */
+        }
+        a {
+            color: darkred; /* 设置超链接颜色为暗红色 */
+            text-decoration: none; /* 去掉下划线 */
+        }
+        .custom-link {
+            font-family: Georgia;
+            font-size: 1em; /* 调整高亮文字的字体大小 */
+            color: black; /* 调整高亮文字的颜色 */
+            font-weight: bold; /* 调整高亮文字的粗细 */
+        }
+        .highlight_2 {
+            font-family: Georgia;
+            font-size: 1em; /* 调整高亮文字的字体大小 */
+            color: solid black; /* 调整高亮文字的颜色 */
+            font-weight: bold; /* 调整高亮文字的粗细 */
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>To see the world, to face the danger, to break the limits.</h1>
+        <p class="quote">—— “The Secret Life of Walter Mitty”</p>
+    </header>
+    <main>
+        <div class="container">
+            <img src="pics/微信图片_20241029165122_1.jpg" alt="My Photo"> <!-- 替换为你的图片路径 -->
+            <div class="text">
+                <p><span class="highlight">Name:</span> Han Yin (Han) | 尹涵</p>
+                <p><span class="highlight">Occupation:</span> Master Candidate</p>
+                <p><span class="highlight">Research Interests:</span> Audio/Speech/Music Signal Processing, AI </p>
+                <p><span class="highlight">Hobbies:</span> Singing, Traveling, Basketball </p>
+                <p><span class="highlight">E-mail:</span> yinh72906@gmail.com; yinhan@mail.nwpu.edu.cn</p>
+                <p class="highlight_2"> 😊 Now I'am in Xi'an, China. Feel free to email me for any questions!</p>
+                <p class="highlight_2"> 📳 
+                <a href="https://github.com/apple-yinhan" class="custom-link">Github;</a>
+                <a href="https://scholar.google.com/citations?user=K3pFKkIAAAAJ&hl=zh-CN" class="custom-link">Google Scholar;</a>
+                <a href="https://www.linkedin.com/in/han-yin-512ba02aa/" class="custom-link">Linked In</a>
+                </p>
+            </div>
+        </div>
+        <p class="fancy-text"> Education Experience</p>
+        <div class="container">
+            <img src="pics/Northwestern_Polytechnical_University_badge.svg.png" alt="NWPU" class="img_school">
+            <div class="text">
+                <p class="highlight_3">School of Marine Science and Technology @ Northwestern Polytechnical University, China, 09/2018 ~ 07/2022</p>
+                <p class="highlight_4">– Bachelor of Engineering, Detection, Guidence and Control Technology. Advisor: Prof. Yintao Wang </p>
+                <p class="highlight_4">– GPA: 3.622/4.0 (Top 2 in Class) </p>
+            </div>
+        </div>
+        <div class="container">
+            <img src="pics/Northwestern_Polytechnical_University_badge.svg.png" alt="NWPU" class="img_school">
+            <div class="text">
+                <p class="highlight_3">School of Marine Science and Technology @ Northwestern Polytechnical University, China, 09/2022 ~ 03/2025</p>
+                <p class="highlight_4">– Master of Science, Information Technology. Advisor: Prof. Jianfeng Chen </p>
+                <p class="highlight_4">– GPA: 91/100 (Top 1 in Class) </p>
+            </div>
+        </div>
+        <p class="fancy-text"> Events</p>
+        <ul>
+        <li> 2024-12-21 👏 The paper
+            (<a href="https://arxiv.org/abs/2409.13292" target="_blank">Exploring Text-Queried Sound Event Detection with Audio Source Separation</a>) 
+            was accepted by <strong>ICASSP, 2025</strong>! </li>
+        <li> 2024-11-25 👨‍💻 Invited as a reviewer for ICME 2025.</li>
+        <li> 2024-09-30 🌇 End my internship in <strong>Speech Group, Tongyi Lab, Alibaba</strong>, Hangzhou, China.</li>
+        <li> 2024-09-02 👏 The paper 
+            (<a href="https://www.sciencedirect.com/science/article/pii/S0165168424003116" target="_blank">Multi-granularity acoustic information fusion for sound event detection</a>) 
+            was accepted by <strong>Signal Processing, Elseiver</strong> (JCR Q2)! </li>
+        <li> 2024-08-14 🎉 Got the <strong>2nd place</strong> in Alibaba Intern AI Challenge, win a <strong>PS5</strong>!</li>
+        <li> 2024-06-30 🌇 End my internship in <strong>Fortemedia Singapore Pte. Ltd</strong>, Singapore.</li>
+        <li> 2024-06-30 🎉 Our team got the <strong>1st place</strong> on objective single model track in 
+            <a href="https://dcase.community/challenge2024/task-language-queried-audio-source-separation-results" target="_blank">
+            IEEE DCASE Challenge 2024 Task9</a> (Language-Queried Audio Source Separation) - 
+            [<a href="https://dcase.community/documents/challenge2024/technical_reports/DCASE2024_Yin_13_t9.pdf" target="_blank">Tech Report</a>]!
+        </li>
+        <li> 2024-06-20 🍾 Begin my internship in <strong>Speech Group, Tongyi Lab, Alibaba</strong>, Hangzhou, China (Mentor: Siqi Zheng&Chong Deng&Hui Wang)!</li>
+        <li> 2024-06-14 🌇 End my internship in <strong>JLESS Lab, Lianfeng Acoustic Technologies Co., Ltd., </strong>, China.</li>
+        <li> 2024-04-01 🍾 Begin my internship in <strong>Fortemedia Singapore Pte. Ltd</strong>, Singapore 
+            (Remote, Mentor: <a href="https://swagshaw.github.io/" target="_blank">Yang Xiao</a>, 
+            Leader: <a href="https://sites.google.com/view/rohankumardas" target="_blank">Rohan Kumar Das</a>)!</li>
+        <li> 2024-03-13 👏 The paper 
+            (<a href="https://ieeexplore.ieee.org/document/10688214" target="_blank">Audiolog: LLMs-Powered Long Audio Logging with Hybrid Token-Semantic Contrastive Learning</a>) 
+            was accepted by <strong>ICME 2024, IEEE</strong>! </li>
+        <li> 2024-02-05 👨‍💻 The IEEE ICME grand challenge we are organizing is officially launched 
+            (<a href="https://ascchallenge.xshengyun.com/" target="_blank">Semi-supervised Acoustic Scene Classification under Domain Shift</a>) - 
+            [<a href="https://arxiv.org/abs/2402.02694" target="_blank">Paper</a>]!</li>
+        <li> 2023-12-19 🎉 Our team got the <strong>4tn place</strong> in 
+            <a href="https://cadenzachallenge.org/docs/icassp_2024/intro" target="_blank">
+                ICASSP 2024 Cadenza Challenge</a>, and the paper (<a href="https://ieeexplore.ieee.org/document/10627597" target="_blank">Sub-Band and Full-Band Interactive U-Net with Dprnn for Demixing Cross-Talk Stereo Music</a>) was accepted by 
+            <strong>ICASSPW 2024</strong>!
+        I did an oral presentation in Seoul, Korea.</li>
+        <li> 2023-10-02 👏 The paper 
+            (<a href="https://ieeexplore.ieee.org/abstract/document/10400283" target="_blank">Convolutional Recurrent 
+                Neural Network with Attention for 3D Speech Enhancement</a>) was
+            accepted by <strong>ICSPCC 2023, IEEE</strong>! I did an oral presentation in ZhengZhou, China.</li>
+        <li> 2023-05-31 🎉 Our team got the <strong>1st place</strong> on track B in 
+            <a href="https://dcase.community/challenge2023/" target="_blank">
+            IEEE DCASE Challenge 2023 Task4</a> (Sound Event Detection with Soft Labels) - 
+            [<a href="https://dcase.community/documents/challenge2023/technical_reports/DCASE2023_Bai_87_t4b.pdf" target="_blank">Tech Report</a>]!
+        </li>
+        <li> 2023-02-20 🎉 Our team got the <strong>2nd place</strong> in 
+            <a href="https://www.l3das.com/icassp2023/" target="_blank">
+                ICASSP 2023 L3DAS Challenge</a>, and 
+            the paper (<a href="https://ieeexplore.ieee.org/abstract/document/10096667" target="_blank">3D 
+                Audio Signal Processing Systems for Speech Enhancement and Sound Localization and Detection</a>) was accepted by 
+            <strong>ICASSP 2023</strong>!</li>
+        <li> 2022-11-22 🎉 Our team got the <strong>1st place</strong> in 
+            <a href="https://www.lfxstek.com/ai%E9%9F%B3%E9%A2%91%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B-%E8%81%94%E4%B8%B0%E8%BF%85%E5%A3%B0%E5%9B%A2%E9%98%9F%E5%86%8D%E5%88%9B%E4%BD%B3%E7%BB%A9/" target="_blank">iFLYTEK A.I. 2022 Challenge</a>!</li>
+        <li> 2022-06-15 🍾 Begin my internship in <strong>JLESS Lab, Lianfeng Acoustic Technologies Co., Ltd.</strong>, China (Mentor: Jisheng Bai)!</li>
+        </ul>
+        
+
+<!--         ------------------------------------------------------------------------------- -->
+        <p class="fancy-text"> Honors & Awards</p>
+        <ul>
+        <li><strong>Guorui Scholarship</strong>, Northwestern Polytechnical University (about Top 3%), 2022-2023.</li>
+        <li><strong>First-class Scholarship</strong>, Northwestern Polytechnical University (about Top 14.7%), 2018-2019 and 2022-2023.</li>
+        <li><strong>National Encouragement scholarship</strong>, Northwestern Polytechnical University (about Top 3%), 2018-2019.</li>
+        </ul>
+        
+    </main>
+    <footer>
+        <div style="display: flex; justify-content: center; align-items: center; width: 100%;">
+        <span>Visitors:</span>
+        <a href="http://www.amazingcounters.com">
+            <img border="0" src="http://cc.amazingcounters.com/counter.php?i=3303238&c=9910027" alt="AmazingCounters.com" style="width: 50px; height: auto;">
+        </a>
+        </div>
+        <p>© Han Yin | Last updata Dec 21th, 2024</p>
+    </footer>
+</body>
+</html>
